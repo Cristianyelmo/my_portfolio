@@ -29,7 +29,7 @@ export const techIcon3D =[
     },
     {
         name:'Firebase',
-        url:"./Icons-png-tech/React.png"
+        url:"./Icons-png-tech/firebase.png"
     },
     {
         name:'Tailwind',
@@ -37,8 +37,24 @@ export const techIcon3D =[
     },
     {
         name:'Figma',
-        url:"./Icons-png-tech/React.png"
+        url:"./Icons-png-tech/Figma.png"
+    }
+
+    ,
+    {
+        name:'Node Js',
+        url:"./Icons-png-tech/nodeJs.png"
+    }
+    ,
+    {
+        name:'Sequelize',
+        url:"./Icons-png-tech/sequelize.png"
+    },
+    {
+        name:'Css',
+        url:"./Icons-png-tech/css.png"
     }
 ]
+
 
 
