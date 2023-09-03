@@ -1,12 +1,22 @@
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
-
+import { useTexture } from '@react-three/drei';
 import CanvasLoader from "./Loader";
 
-const Earth = () => {
-  const earth = useGLTF("./Icon-3D/figma.glb");
 
+import {  useLoader } from '@react-three/fiber';
+
+import { TextureLoader } from 'three/src/loaders/TextureLoader';
+
+const Earth = () => {
+
+  const { nodes, materials } = useGLTF("./Icon-3D/figma.glb");
+  const texture = useTexture('./Perfil.png');
+  if (materials && materials.figma) {
+    materials.figma.map = texture/* Aquí asigna la textura */;
+  }
+ 
   return (
     <mesh>
       <hemisphereLight intensity={9}  
@@ -16,7 +26,9 @@ const Earth = () => {
     angle={0.12}
 
     intensity={1}/>
-    <primitive object={earth.scene} scale={5} position-y={0} rotation-y={4} />
+    <primitive object={nodes.figma} scale={5} position-y={0} rotation-y={4}  />
+
+
     </mesh>
   );
 };

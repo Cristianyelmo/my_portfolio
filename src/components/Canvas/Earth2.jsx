@@ -4,8 +4,8 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "./Loader";
 
-const Earth = () => {
-  const earth = useGLTF("./Icon-3D/sequelize.glb");
+const Earth= ({icon}) => {
+  const earth = useGLTF(icon);
 
   return (
     <mesh>
@@ -21,7 +21,10 @@ const Earth = () => {
   );
 };
 
-const EarthCanvas2 = () => {
+
+
+const EarthCanvas2 = ({icon}) => {
+  console.log(icon)
   return (
     <Canvas
       shadows
@@ -44,7 +47,7 @@ const EarthCanvas2 = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2} 
         />
-        <Earth />
+        <Earth icon={icon} />
 
         <Preload all />
       </Suspense>
