@@ -15,7 +15,7 @@ const Tech = ()=>{
             <div >
               
         <div className="w-[150px] h-[150px] ">
-              <EarthCanvas2 />
+             <img  src={tech.url}  />
                
             </div>
             <p className="text-center text-white">{tech.name}</p>
