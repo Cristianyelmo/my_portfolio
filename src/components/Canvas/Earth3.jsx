@@ -16,7 +16,7 @@ const Earth = () => {
     angle={0.12}
 
     intensity={1}/>
-    <primitive object={earth.scene} scale={5} position-y={0} rotation-y={0} />
+    <primitive object={earth.scene} scale={5} position-y={0} rotation-y={4} />
     </mesh>
   );
 };
@@ -39,7 +39,7 @@ const EarthCanvas3 = () => {
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
         
-          autoRotate 
+        autoRotate={false} 
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2} 
