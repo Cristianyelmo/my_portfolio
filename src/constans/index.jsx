@@ -17,11 +17,11 @@ export const techIcon3D =[
     },
     {
         name:'Javascript',
-        url:"./Icons-png-tech/React.png"
+        url:"./Icons-png-tech/javascript.png"
     },
     {
         name:'Github',
-        url:"./Icons-png-tech/React.png"
+        url:"./Icons-png-tech/github.png"
     },
     {
         name:'Html',
