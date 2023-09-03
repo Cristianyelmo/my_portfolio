@@ -16,7 +16,7 @@ const Earth = () => {
     angle={0.12}
 
     intensity={1}/>
-    <primitive object={earth.scene} scale={4.1} position-y={-2.1} rotation-y={0} />
+    <primitive object={earth.scene} scale={4.5} position-y={-2.1} rotation-y={0} />
     </mesh>
   );
 };

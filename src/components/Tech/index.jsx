@@ -1,17 +1,5 @@
 
-import EarthCanvas from "../Canvas/Earth";
-import EarthCanvas2 from "../Canvas/Earth2";
-import EarthCanvas3 from "../Canvas/Earth3";
-import Firebase from "../Canvas/Firebase";
-import Github from "../Canvas/Github";
-import Javascript from "../Canvas/Javascript";
-import MySql from "../Canvas/MySql";
-import NextJs from "../Canvas/NextJs";
-import Postman from "../Canvas/Postman";
-import Tailwind from "../Canvas/Tailwind";
-import R3d from "../Canvas/react";
-import C3d from "../Canvas/css";
-import Html3d from "../Canvas/html";
+
 import { techIcon3D } from "../../constans";
 
 
@@ -23,13 +11,16 @@ const Tech = ()=>{
         <div className="flex flex-wrap justify-center">
 { techIcon3D.map((tech)=>(
             <div >
-              
+         
         <div className="w-[150px] h-[150px] ">
-              <EarthCanvas2 icon={tech.url}/>
+              <img src={tech.url}/>
                
-            </div>
-            <p className="text-center text-white">{tech.name}</p>
-
+            </div >
+              <div className=" w-[80px] ml-[34px]  py-2"> 
+            
+            <p className="text-center text-white mt-[10px] ">{tech.name}</p>
+            
+            </div>  
             </div>
             ))
 

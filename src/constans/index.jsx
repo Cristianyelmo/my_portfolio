@@ -1,44 +1,60 @@
 export const techIcon3D =[
     {
         name:'React',
-        url:"./Icon-3D/react.glb"
+        url:"./Icons-png-tech/React.png"
     },
     {
         name:'Postman',
-        url:"./Icon-3D/Postman.glb"
+        url:"./Icons-png-tech/postman.png"
     },
     {
         name:'NextJs',
-        url:"./Icon-3D/NextJs.glb"
+        url:"./Icons-png-tech/nextjs.png"
     },
     {
         name:'My Sql',
-        url:"./Icon-3D/Mysql.glb"
+        url:"./Icons-png-tech/mysql.png"
     },
     {
         name:'Javascript',
-        url:"./Icon-3D/Javascript.glb"
+        url:"./Icons-png-tech/javascript.png"
     },
     {
         name:'Github',
-        url:"./Icon-3D/Github.glb"
+        url:"./Icons-png-tech/github.png"
     },
     {
         name:'Html',
-        url:"./Icon-3D/Html.glb"
+        url:"./Icons-png-tech/html.png"
     },
     {
         name:'Firebase',
-        url:"./Icon-3D/firebase.glb"
+        url:"./Icons-png-tech/firebase.png"
     },
     {
         name:'Tailwind',
-        url:"./Icon-3D/Tailwind.glb"
+        url:"./Icons-png-tech/tailwind.png"
     },
     {
         name:'Figma',
-        url:"./Icon-3D/figma.glb"
+        url:"./Icons-png-tech/Figma.png"
+    }
+
+    ,
+    {
+        name:'Node Js',
+        url:"./Icons-png-tech/nodeJs.png"
+    }
+    ,
+    {
+        name:'Sequelize',
+        url:"./Icons-png-tech/sequelize.png"
+    },
+    {
+        name:'Css',
+        url:"./Icons-png-tech/css.png"
     }
 ]
+
 
 
