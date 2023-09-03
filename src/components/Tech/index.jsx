@@ -1,17 +1,7 @@
 
-import EarthCanvas from "../Canvas/Earth";
+
 import EarthCanvas2 from "../Canvas/Earth2";
-import EarthCanvas3 from "../Canvas/Earth3";
-import Firebase from "../Canvas/Firebase";
-import Github from "../Canvas/Github";
-import Javascript from "../Canvas/Javascript";
-import MySql from "../Canvas/MySql";
-import NextJs from "../Canvas/NextJs";
-import Postman from "../Canvas/Postman";
-import Tailwind from "../Canvas/Tailwind";
-import R3d from "../Canvas/react";
-import C3d from "../Canvas/css";
-import Html3d from "../Canvas/html";
+
 import { techIcon3D } from "../../constans";
 
 
