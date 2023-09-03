@@ -24,7 +24,7 @@ const Earth= () => {
 
 
 const EarthCanvas2 = () => {
-  console.log(icon)
+
   return (
     <Canvas
       shadows
