@@ -1,7 +1,7 @@
 const About = ()=>{
 
     return(
-    <div className=" px-5 text-center ">
+    <div className=" px-5 text-center " id="sobre_mi">
      <h1 className=" text-center text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] mb-[30px]">Sobre mi </h1>
 {/*  <div className="flex">
  
@@ -31,7 +31,7 @@ const About = ()=>{
      <div className="poligon1-about h-fit p-5 max-w-xl ">
  
          <p className="text-center">
-         Mi pasion por la creacion en la tecnologia arranca cuando me compre una tableta y una notebook,desde ahi de forma autodidacta aprendi a hacer animaciones ,musica y herramientas de diseño algunas en forma autodidacta y otras de la carrera de Diseño industrial.Hace un año gane una beca para el bootcamp de programacion full stack de Formar que me hizo despertar otro interes en la creacion mediante la tecnologia,la programacion,buscando crear paginas web o aplicaciones atractivas y dinamicas,siendo algo interesante y desafiante que disfruto cada dia.Me gustaria seguir aprendiendo otros lenguajes como otras areas de la programacion como la programacion movil y desktop
+          Mi pasión por la creación en la tecnología arranca cuando me compre una tableta y una notebook, desde ahí de forma autodidacta aprendí a hacer animaciones, música y aprender herramientas de diseño y 3D, algunas en forma autodidacta y otras de la carrera de Diseño industrial. Hace un año gané una beca para el bootcamp de programación full stack de Formar que me hizo despertar otro interés en la creación mediante la tecnología, la programación, buscando crear páginas web o aplicaciones atractivas y dinámicas, siendo algo interesante y desafiante que disfruto cada día. Me gustaría seguir aprendiendo otros lenguajes como otras áreas de la programación como la programación móvil y desktop
          </p>
           
 
