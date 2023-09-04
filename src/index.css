@@ -21,7 +21,7 @@ overflow: hidden;
   position: relative;
   width: 210px;
   height: 210px;
-  background: rgb(255, 255, 255);
+  background:white;
   box-sizing: border-box;
   -webkit-clip-path: polygon(6% 0, 98% 0, 100% 100%, 0% 100%);
   clip-path: polygon(6% 0, 98% 0, 100% 100%, 0% 100%);
@@ -76,27 +76,6 @@ overflow: hidden;
   transition: clip-path 0.5s
 }
 
-
-.poligon-about:hover  {
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  height: 210px;
-  background: rgb(0, 0, 0);
-  box-sizing: border-box;
-  -webkit-clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
-  clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
-}
-.poligon1-about:hover {
-  position: absolute;
-    background: white;
-  top: 8px; /* equal to border thickness */
-  left: 8px; /* equal to border thickness */
-  width: 96%; /* container height - (border thickness * 2) */
-  height: 195px; /* container height - (border thickness * 2) */
-  -webkit-clip-path:polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
-  clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
-}
 
 
 
@@ -275,6 +254,27 @@ background: white;
   clip-path: polygon(0 20%, 100% 21%, 100% 100%, 0 100%);
  
 }
+
+
+
+@keyframes aparecerDesaparecer {
+  0% {
+    opacity: 0; /* El texto está completamente oculto al principio */
+  }
+  50% {
+    opacity: 1; /* El texto está completamente visible a la mitad de la animación */
+  }
+  100% {
+    opacity: 0; /* El texto vuelve a estar completamente oculto al final */
+  }
+}
+
+.text-animation {
+  animation: aparecerDesaparecer 2s infinite; /* La animación dura 2 segundos y se repite infinitamente */
+}
+
+
+
 
 
 
