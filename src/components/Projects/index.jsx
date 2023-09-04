@@ -2,7 +2,7 @@ const Projects = ()=>{
 
     return(
 
-        <div id="projectos">
+        <div id="projectos" className="py-9">
   <h1 className=" text-center text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] mb-[30px]">Proyectos</h1>
 <div className="items-center flex flex-col sm:flex-row sm:justify-around space-y-3">
 <div className="w-[210px] ">
@@ -61,6 +61,72 @@ const Projects = ()=>{
 
 </div>
 
+<div className="w-[210px]">
+  <div className="poligon-Projects-3 ">
+
+     <div className="poligon-Projects3 overflow-hidden flex justify-center ">
+    
+          <div >
+              
+          <img className="h-[130px] mt-[40px]" src="./Pet-Universe.png"/>
+         <h1 className="text-white text-center">Pet-Universe</h1>
+          </div>
+
+     </div>
+</div>
+
+<div className="flex flex-wrap">
+    
+
+    <div className="h-[50px]">
+      <img className="h-[50px]" src="./Icons-png-tech/Figma.png"/>
+    </div>
+
+    <div className="h-[50px]" >
+      <img className="h-[50px]" src="./Icons-png-tech/html.png"/>
+    </div>
+
+
+    <div className="h-[50px]" >
+      <img className="h-[50px]" src="./Icons-png-tech/css.png"/>
+    </div>
+  
+
+
+    <div className="w-[50px] h-[50px] ">
+      <img className="w-[50px]" src="./Icons-png-tech/nodeJs.png"/>
+    </div>
+
+    <div className="w-[50px] h-[50px] ">
+      <img className="w-[50px]" src="./Icons-png-tech/mysql.png"/>
+    </div>
+    
+    <div className="w-[50px] h-[50px] ">
+      <img className="w-[50px]" src="./Icons-png-tech/postman.png"/>
+    </div>
+
+    <div className="w-[50px] h-[50px] ">
+      <img className="w-[50px]" src="./Icons-png-tech/sequelize.png"/>
+    </div>
+    
+</div>
+<p className="text-animation text-white text-center text-[14px]">Puede tardar algunos segundos en cargar</p>
+
+
+
+<button className="bg-black text-white w-full h-[50px] poligon-button" >
+<a href="https://pet-universee.onrender.com/" target="_blank"> Ver demo</a>
+   
+</button>
+
+
+<button className="bg-black text-white w-full h-[50px] poligon-button">
+<a href="https://github.com/Gusmilo88/Grupo_2_PetsUniverse" target="_blank"> Ver Github</a>
+</button>
+
+
+
+</div>
 <div className="w-[210px]">
   <div className="poligon-Projects-2 ">
 
@@ -122,67 +188,7 @@ const Projects = ()=>{
 </div>
 
 
-<div className="w-[210px]">
-  <div className="poligon-Projects-3 ">
 
-     <div className="poligon-Projects3 overflow-hidden flex justify-center ">
-    
-          <div >
-              
-          <img className="h-[130px] mt-[40px]" src="./Pet-Universe.png"/>
-         <h1 className="text-white text-center">Pet-Universe</h1>
-          </div>
-
-     </div>
-</div>
-
-<div className="flex flex-wrap">
-    
-
-    <div className="h-[50px]">
-      <img className="h-[50px]" src="./Icons-png-tech/Figma.png"/>
-    </div>
-
-    <div className="h-[50px]" >
-      <img className="h-[50px]" src="./Icons-png-tech/html.png"/>
-    </div>
-
-
-    <div className="h-[50px]" >
-      <img className="h-[50px]" src="./Icons-png-tech/css.png"/>
-    </div>
-  
-
-
-    <div className="w-[50px] h-[50px] ">
-      <img className="w-[50px]" src="./Icons-png-tech/nodeJs.png"/>
-    </div>
-
-    <div className="w-[50px] h-[50px] ">
-      <img className="w-[50px]" src="./Icons-png-tech/mysql.png"/>
-    </div>
-    
-    <div className="w-[50px] h-[50px] ">
-      <img className="w-[50px]" src="./Icons-png-tech/postman.png"/>
-    </div>
-
-    <div className="w-[50px] h-[50px] ">
-      <img className="w-[50px]" src="./Icons-png-tech/sequelize.png"/>
-    </div>
-    
-</div>
-
-<button className="bg-black text-white w-full h-[50px] poligon-button" >
-<a href="https://pet-universee.onrender.com/" target="_blank"> Ver demo</a>
-   
-</button>
-
-
-<button className="bg-black text-white w-full h-[50px] poligon-button">
-<a href="https://github.com/Gusmilo88/Grupo_2_PetsUniverse" target="_blank"> Ver Github</a>
-</button>
-
-</div>
 
 </div>
 

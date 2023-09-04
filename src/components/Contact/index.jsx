@@ -16,7 +16,8 @@ const [download,setDowload] =useState(false)
         <Head_3D/>
     </div>  
     <div className="" >
-    <h1 className="text-animation text-white text-center text-[30px]">Descarga mi cv</h1>
+   {!download ? <h1 className="text-animation text-white text-center text-[30px]">Descarga mi cv</h1> :
+   <h1 className=" text-white text-center text-[30px]">Gracias! :)</h1>}
 <div className="  flex justify-center ">
 
     {!download ?
