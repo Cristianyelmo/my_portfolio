@@ -2,7 +2,7 @@ const Projects = ()=>{
 
     return(
 
-        <div>
+        <div id="projectos">
   <h1 className=" text-center text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] mb-[30px]">Proyectos</h1>
 <div className="items-center flex flex-col sm:flex-row sm:justify-around space-y-3">
 <div className="w-[210px] ">

@@ -4,7 +4,7 @@ import { AiFillBehanceCircle, AiFillGithub, AiFillLinkedin } from 'react-icons/a
 const Contact = ()=>{
 const [download,setDowload] =useState(false)
     return(
-        <div>
+        <div id="contacto">
         <h1 className=" text-center text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] mb-[30px]">Contacto</h1>
 
 <div className="flex justify-center flex-wrap">
