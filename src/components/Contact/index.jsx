@@ -21,7 +21,7 @@ const [download,setDowload] =useState(false)
 <div className="  flex justify-center ">
 
     {!download ?
-    <a href='./Amarilla-Cristian-CV-Desarrollo-web full-stack.pdf' download='perfilxd' >
+    <a href='./Amarilla-Cristian-CV-Desarrollo-web full-stack.pdf' download='Amarilla-Cristian-CV-Desarrollo-web full-stack' >
    <img className=' h-[220px]'src="./animation-portfolio-2d-dowload.gif" onClick={()=>setDowload(true)}/> 
 
 </a>
