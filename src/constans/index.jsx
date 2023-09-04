@@ -54,6 +54,12 @@ export const techIcon3D =[
         name:'Css',
         url:"./Icons-png-tech/css.png"
     }
+
+    ,
+    {
+        name:'Express',
+        url:"./Icons-png-tech/express.png"
+    }
 ]
 
 

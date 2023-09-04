@@ -108,6 +108,10 @@ const Projects = ()=>{
     <div className="w-[50px] h-[50px] ">
       <img className="w-[50px]" src="./Icons-png-tech/sequelize.png"/>
     </div>
+
+    <div className="w-[50px] h-[50px] ">
+      <img className="w-[50px]" src="./Icons-png-tech/express.png"/>
+    </div>
     
 </div>
 <p className="text-animation text-white text-center text-[14px]">Puede tardar algunos segundos en cargar</p>
