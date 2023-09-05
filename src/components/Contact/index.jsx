@@ -32,42 +32,49 @@ const [download,setDowload] =useState(false)
 
 
     <div className="space-x-1 flex px-4 py-7">
+        <a href="https://github.com/Cristianyelmo" target="_blank">
 <div className="poligon-Projects-4 ">
 
 <div className="poligon-Projects4 overflow-hidden flex justify-center ">
-<a href="https://github.com/Cristianyelmo" target="_blank">
+
 <AiFillGithub className="text-5xl mt-[25px]"/>
 
+
+
+</div>
+</div>
 </a>
 
-</div>
-</div>
 
-
-
+<a href="https://www.linkedin.com/in/amarillacristian/" target="_blank">
 <div className="poligon-Projects-4 ">
 
 <div className="poligon-Projects4 overflow-hidden flex justify-center ">
-<a href="https://www.linkedin.com/in/amarillacristian/" target="_blank">
+
 <AiFillLinkedin className="text-5xl mt-[25px]"/>
 
+
+
+</div>
+</div>
 </a>
 
-</div>
-</div>
 
-
-
+<a href="https://www.behance.net/cristiaamarill" target="_blank">
 <div className="poligon-Projects-4 ">
 
 <div className="poligon-Projects4 overflow-hidden flex justify-center ">
-<a href="https://www.behance.net/cristiaamarill" target="_blank">
+
 <AiFillBehanceCircle className="text-5xl mt-[25px]" />
 
-</a>
+
 
 </div>
+
+
+
 </div>
+</a>
 
 
 </div>

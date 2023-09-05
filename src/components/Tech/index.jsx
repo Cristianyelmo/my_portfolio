@@ -12,7 +12,7 @@ const Tech = ()=>{
 { techIcon3D.map((tech)=>(
             <div >
          
-        <div className="w-[150px] h-[150px] ">
+        <div className="w-[110px] h-[110px] ">
               <img src={tech.url}/>
                
             </div >

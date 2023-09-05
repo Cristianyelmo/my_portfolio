@@ -45,17 +45,19 @@ const Projects = ()=>{
 
 <div className="space-y-1">
 
-
+<a href="https://cristianyelmo.github.io/Spoktify/" target="_blank">
 <button className="bg-black text-white w-full h-[50px] poligon-button">
-<a href="https://cristianyelmo.github.io/Spoktify/" target="_blank"> Ver demo</a>
+ Ver demo
    
 </button>
+</a>
 
-
+<a href="https://github.com/Cristianyelmo/Spoktify" target="_blank"> 
 <button className="bg-black text-white w-full h-[50px] poligon-button">
-<a href="https://github.com/Cristianyelmo/Spoktify" target="_blank"> Ver Github</a>
+Ver Github
    
 </button>
+</a>
 
 </div>
 
@@ -113,16 +115,17 @@ const Projects = ()=>{
 <p className="text-animation text-white text-center text-[14px]">Puede tardar algunos segundos en cargar</p>
 
 
-
+<a href="https://pet-universee.onrender.com/" target="_blank">
 <button className="bg-black text-white w-full h-[50px] poligon-button" >
-<a href="https://pet-universee.onrender.com/" target="_blank"> Ver demo</a>
+ Ver demo
    
 </button>
-
-
+</a>
+<a href="https://github.com/Gusmilo88/Grupo_2_PetsUniverse" target="_blank">
 <button className="bg-black text-white w-full h-[50px] poligon-button">
-<a href="https://github.com/Gusmilo88/Grupo_2_PetsUniverse" target="_blank"> Ver Github</a>
+ Ver Github
 </button>
+</a>
 
 
 
@@ -174,16 +177,18 @@ const Projects = ()=>{
   
     
 </div>
-
+<a href="https://cristianyelmo.github.io/T-Follow/" target="_blank">
 <button className="bg-black text-white w-full h-[50px] poligon-button">
-<a href="https://cristianyelmo.github.io/T-Follow/" target="_blank"> Ver Demo</a>
+ Ver Demo
 </button>
+</a>
 
-
+<a href="https://github.com/Cristianyelmo/T-Follow" target="_blank">
 <button className="bg-black text-white w-full h-[50px] poligon-button">
 
-<a href="https://github.com/Cristianyelmo/T-Follow" target="_blank"> Ver Github</a>
+Ver Github
 </button>
+</a>
 
 </div>
 
