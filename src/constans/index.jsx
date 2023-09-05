@@ -3,10 +3,7 @@ export const techIcon3D =[
         name:'React',
         url:"./Icons-png-tech/React.png"
     },
-    {
-        name:'Postman',
-        url:"./Icons-png-tech/postman.png"
-    },
+   
     {
         name:'NextJs',
         url:"./Icons-png-tech/nextjs.png"
@@ -19,28 +16,13 @@ export const techIcon3D =[
         name:'Javascript',
         url:"./Icons-png-tech/javascript.png"
     },
-    {
-        name:'Github',
-        url:"./Icons-png-tech/github.png"
-    },
-    {
-        name:'Html',
-        url:"./Icons-png-tech/html.png"
-    },
+    
+    
     {
         name:'Firebase',
         url:"./Icons-png-tech/firebase.png"
     },
-    {
-        name:'Tailwind',
-        url:"./Icons-png-tech/tailwind.png"
-    },
-    {
-        name:'Figma',
-        url:"./Icons-png-tech/Figma.png"
-    }
-
-    ,
+   
     {
         name:'Node Js',
         url:"./Icons-png-tech/nodeJs.png"
@@ -53,13 +35,26 @@ export const techIcon3D =[
     {
         name:'Css',
         url:"./Icons-png-tech/css.png"
+    },
+    {
+        name:'Postman',
+        url:"./Icons-png-tech/postman.png"
+    },{
+        name:'Github',
+        url:"./Icons-png-tech/github.png"
+    },{
+        name:'Html',
+        url:"./Icons-png-tech/html.png"
+    }, {
+        name:'Tailwind',
+        url:"./Icons-png-tech/tailwind.png"
+    },
+    {
+        name:'Figma',
+        url:"./Icons-png-tech/Figma.png"
     }
 
     ,
-    {
-        name:'Express',
-        url:"./Icons-png-tech/express.png"
-    }
 ]
 
 

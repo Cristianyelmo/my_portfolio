@@ -68,7 +68,7 @@ const ThreeScene = () => {
 };
 
 export default ThreeScene;
-En este ejemplo, hemos agregado un evento de scroll que alterna la variable scrollActiveRef entre true y false. Cuando scrollActiveRef es true, los controles de la cámara están activos y el objeto 3D se puede mover. Cuando es false, los controles están desactivados durante el scroll, lo que permite hacer scroll hacia arriba sin que el objeto se mueva. Esto debería permitirte lograr el comportamiento deseado en tu aplicación React.js con Three.js.
+
 
 
 
