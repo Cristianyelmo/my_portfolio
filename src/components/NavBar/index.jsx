@@ -37,7 +37,7 @@ items-center'>
   onClick={()=>{
     setToggle(!toggle)
     }}>
-<a href="#sobre_mi" className="text-white">Sobre mi</a>
+<Link to="sobre_mi" spy={true} smooth={true} offset={50} duration={500}  className="text-white cursor-pointer">Sobre mi</Link>
   </li>
 
 
@@ -46,7 +46,7 @@ items-center'>
  onClick={()=>{
    setToggle(!toggle)
    }}>
-<a href="#tecnologias" className="text-white">Tecnologias</a>
+<Link to="tecnologias" spy={true} smooth={true} offset={50} duration={500}  className="text-white cursor-pointer">Tecnologias</Link>
  </li>
 
  <li  
@@ -54,7 +54,7 @@ items-center'>
  onClick={()=>{
    setToggle(!toggle)
    }}>
-  <a href="#projectos" className="text-white">Proyectos</a>
+<Link to="projectos" spy={true} smooth={true} offset={50} duration={500}  className="text-white cursor-pointer">Proyectos</Link>
  </li>
 
 
@@ -63,7 +63,7 @@ items-center'>
  onClick={()=>{
    setToggle(!toggle)
    }}>
-<a href="#contacto" className="text-white">Contacto</a>
+<Link to="contacto" spy={true} smooth={true} offset={50} duration={500}  className="text-white cursor-pointer">Contacto</Link>
  </li>
 
 
