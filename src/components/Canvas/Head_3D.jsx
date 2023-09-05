@@ -41,8 +41,10 @@ const Head_3D = () => {
         
           autoRotate 
           enableZoom={false}
-          maxPolarAngle={Math.PI / 2.5}
-          minPolarAngle={Math.PI / 2.5} 
+         maxPolarAngle={Math.PI / 2.5}
+          minPolarAngle={Math.PI / 2.5}  
+
+
         />
         <Earth />
 
