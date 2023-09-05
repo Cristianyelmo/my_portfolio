@@ -16,7 +16,7 @@ const Tech = ()=>{
               <img src={tech.url}/>
                
             </div >
-              <div className=" w-[80px] ml-[34px]  py-2"> 
+              <div className=" w-[80px] ml-[17px]  py-2"> 
             
             <p className="text-center text-white mt-[10px] ">{tech.name}</p>
             
