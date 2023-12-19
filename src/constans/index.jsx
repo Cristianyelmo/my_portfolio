@@ -55,6 +55,13 @@ export const techIcon3D =[
     }
 
     ,
+
+    {
+        name:'PHP',
+        url:"./Icons-png-tech/php.png"
+    }
+
+    ,
 ]
 
 

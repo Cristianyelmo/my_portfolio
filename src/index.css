@@ -257,6 +257,63 @@ background: white;
 
 
 
+
+.poligon-Projects-5 {
+  display: inline-block;
+  position: relative;
+  width: 210px;
+  height: 210px;
+  background: rgb(0, 0, 0);
+  box-sizing: border-box;
+  -webkit-clip-path:  polygon(6% 4%, 95% 0, 100% 100%, 0 100%);
+
+  clip-path: polygon(6% 4%, 95% 0, 100% 100%, 0 100%);
+
+  transition: clip-path 0.4s
+}
+.poligon-Projects5{
+  position: absolute;
+    
+ background-image: url('/background-CremadelCielo.png');
+  top: 8px; /* equal to border thickness */
+  left: 8px; /* equal to border thickness */
+  width: 195px; /* container height - (border thickness * 2) */
+  height: 195px; /* container height - (border thickness * 2) */
+  -webkit-clip-path: polygon(6% 4%, 95% 0, 100% 100%, 0 100%);
+
+  clip-path: polygon(6% 4%, 95% 0, 100% 100%, 0 100%);
+
+  transition: clip-path 0.4s
+}
+
+.poligon-Projects-5:hover {
+
+  -webkit-clip-path:   polygon(0 8%, 100% 8%, 100% 100%, 0 100%);
+
+  clip-path: polygon(0 8%, 100% 8%, 100% 100%, 0 100%);
+
+}
+.poligon-Projects5:hover{
+ /* container height - (border thickness * 2) */
+  -webkit-clip-path: polygon(0 8%, 100% 8%, 100% 100%, 0 100%);
+
+  clip-path: polygon(0 8%, 100% 8%, 100% 100%, 0 100%);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @keyframes aparecerDesaparecer {
   0% {
     opacity: 0; /* El texto está completamente oculto al principio */
